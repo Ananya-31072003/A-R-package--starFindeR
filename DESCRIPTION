@@ -1,0 +1,16 @@
+Package: starFindeR
+Title: Astronomical Image Processing and Star Detection
+Version: 0.0.1.0
+Authors@R: 
+    person("ananya", "ghosh", , "ananyagh25@iitk.ac.in", role = c("aut", "cre"))
+Description: useful package to easily read and visualize astronomical fits file,detect bright points which embedded in 2D space and make clusters of this bright object to visualize the star groups or celestial object.
+Imports: ggplot2, MASS, viridis, cluster, grid, reticulate, uwot,
+        Rtsne, stats
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2026-04-04 00:32:41 UTC; ananyaghosh
+Author: ananya ghosh [aut, cre]
+Maintainer: ananya ghosh <ananyagh25@iitk.ac.in>
